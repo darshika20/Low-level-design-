@@ -1,0 +1,13 @@
+Parking Lot
+
+Requirements:
+
+1. Parking lot should have multiple floors
+2. Parking lot should have multiple entry and exit points
+3. Each entry and exit gate should have a parking attendant
+4. Parking attendant should issue the parking ticket at entrance
+5. Parking attendant should process the payment on exit of each vehicle
+6. Payment can be done via card or cash
+7. Each parking floor should have a parking display board
+8. Parking display board should show the no of free spaces present for each parking space type 
+9. Each parking floor should have different parking spaces for truck, car, bike
