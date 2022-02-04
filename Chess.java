@@ -24,8 +24,8 @@ Class Player {
 
 Class Time {
 
-	int mins;
-	int seconds;
+	private int mins;
+	private int seconds;
 }
 
 Class Account {
@@ -41,7 +41,6 @@ Class Account {
 Class ChessBoard {
 
 	private List<List<Cell>> board;
-	private List<Piece> pieces;
 
 	public void resetBoard();
 	public void updateBoard(Move move);
@@ -58,15 +57,14 @@ Class Move {
 
 Class Cell {
 
-	Color color;
-	Piece piece;
-	Postion position;
+	private Piece piece;
+	private Postion position;
 }
 
 Class Postion {
 
-	int numeral;
-	char ch;
+	private int numeral;
+	private char ch;
 }
 
 Enum Color {
